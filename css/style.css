@@ -1,0 +1,14 @@
+body {
+    background-color: #f0f8ff; /* Color estilo anime */
+    color: #333;
+}
+.gallery {
+    margin-top: 20px;
+}
+.gallery img {
+    border-radius: 15px;
+    transition: transform 0.2s; /* Efecto al pasar el ratón */
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
